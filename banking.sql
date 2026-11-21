@@ -1,7 +1,3 @@
-select * from transactions 
-select * from users
-select * from banking_cards where client_id = 260 order by client_id
-select * from codes
 --Q1:What is the total number of card transactions made by Xóm Bank in 2023?
 select COUNT(*) as total_tramsaction
 from transactions
