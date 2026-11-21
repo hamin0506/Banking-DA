@@ -1,6 +1,6 @@
 # Xóm Bank: Phân tích danh mục thẻ (SQL Server + Power BI)
 
-Dự án phân tích dữ liệu thẻ của **Xóm Bank**, một ngân hàng bán lẻ mô phỏng thị trường Mỹ (đơn vị USD). Dự án đi từ dữ liệu thô đến bộ truy vấn nghiệp vụ T-SQL và báo cáo Power BI, phục vụ các nhóm Board, Marketing, Cards/Closure, Risk/Fraud và Geographic.
+Dự án phân tích dữ liệu thẻ của **Xóm Bank**, một ngân hàng bán lẻ kết hợp phát hành thẻ tín dụng tại Mỹ, phục vụ hơn 2.000 khách hàng cá nhân với danh mục thẻ đa dạng (Visa, Mastercard, Amex, Discover) ở các loại Credit / Debit / Prepaid. Dự án đi từ dữ liệu thô đến bộ truy vấn nghiệp vụ T-SQL và báo cáo Power BI, phục vụ các nhóm Board, Marketing, Cards/Closure, Risk/Fraud và Geographic.
 
 ## Bộ dữ liệu
 
@@ -28,13 +28,6 @@ Dự án phân tích dữ liệu thẻ của **Xóm Bank**, một ngân hàng b�
 
 Các câu hỏi nghiệp vụ gồm: tổng giao dịch, top thành phố, phân phối credit score, cơ cấu brand, tỷ lệ lỗi, top khách chi tiêu, ngành chi tiêu lớn nhất, credit utilization, thẻ dormant, tín hiệu gian lận nhiều bang, chi tiêu lũy kế, churn, outlier theo MCC, tương quan credit score – chi tiêu và heatmap bang × ngành.
 
-Một số view được Power BI đọc dưới tên khác:
-
-| Trong file SQL | Trong Power BI |
-|---|---|
-| `vw_outlier` | `vw_fraud` |
-| `vw_heatmap` | `vw_matrix` |
-| `vw_multistate`, `vw_churn` | giữ nguyên tên |
 
 ## Báo cáo Power BI
 
