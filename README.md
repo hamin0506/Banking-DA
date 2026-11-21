@@ -1,4 +1,4 @@
-# Xóm Bank: Card Portfolio Analytics (SQL Server + Power BI)
+# Xóm Bank: Card Portfolio Analytics 
 
 Analysis of card data from the **Xóm Dataset** banking schema: a US retail bank that also issues credit cards, serving 2,000+ individual customers with a diverse card portfolio (Visa, Mastercard, Amex, Discover) across Credit / Debit / Prepaid types. The project goes from raw data to a set of T-SQL business queries and a Power BI report, supporting the Board, Marketing, Cards/Closure, Risk/Fraud and Geographic teams.
 
@@ -79,7 +79,6 @@ The business questions cover: total transactions, top cities, credit score distr
 1. Create a SQL Server database and load the 4 CSV files into the tables `transactions`, `users`, `banking_cards` and `codes`.
 2. Run the queries in `BANKING.sql` (including the creation of the views).
 3. Open `Banking.pbix` in Power BI Desktop.
-4. The model points to the server `DESKTOP-1KB4ADE\SQLEXPRESS02`. Change it to your own server in Transform data, then Refresh.
 
 ## Tech Stack
 
